@@ -1,0 +1,22 @@
+@import '../../../../../dist/scss/variables.scss';
+
+
+:host{
+    display: flex;
+    justify-content: center;
+
+    button{
+        margin-top: 15px;
+        background-color: $delete-color;
+        width: 200px;
+        height: 40px;
+        border-radius: 50px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border:none;
+        color: $full-white;
+
+        &:hover{
+            background-color:$delete-color-darker ;
+        }
+    }
+}
