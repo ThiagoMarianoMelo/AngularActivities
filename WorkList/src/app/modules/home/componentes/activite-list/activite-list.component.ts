@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, DoCheck } from '@angular/core';
 
 //Model
 import { TaskModel } from '../../model/task-model';
@@ -8,7 +8,7 @@ import { TaskModel } from '../../model/task-model';
   templateUrl: './activite-list.component.html',
   styleUrls: ['./activite-list.component.scss']
 })
-export class ActiviteListComponent {
+export class ActiviteListComponent implements DoCheck{
   
   public taskList : Array<TaskModel> = [
     {name : "teste", checked : true},
@@ -20,6 +20,10 @@ export class ActiviteListComponent {
 
   public deleteTaskItem(index : number) : void{
     this.taskList.splice(index, 1);
+  }
+
+  public ngDoCheck(): void {
+      this.taskList.sort((tFist,Tlast)=> Number(tFist.checked) - Number(Tlast.checked));
   }
 
   public deleteAllList() : void{
