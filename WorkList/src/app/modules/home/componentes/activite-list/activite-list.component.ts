@@ -11,11 +11,6 @@ import { TaskModel } from '../../model/task-model';
 export class ActiviteListComponent implements DoCheck{
   
   public taskList : Array<TaskModel> = [
-    {name : "teste", checked : true},
-    {name : "teste", checked : true},
-    {name : "teste", checked : true},
-    {name : "teste", checked : true},
-    {name : "teste", checked : true}
   ];
 
   public deleteTaskItem(index : number) : void{
