@@ -1,0 +1,45 @@
+@import url('../../../../../Scss/base/variables.scss');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+:host{
+    .container{
+        width: 500px;
+        min-height: 370px;
+    
+        padding: 25px 40px;
+        box-sizing: border-box;
+        background-color: var(--full-white);
+        border-radius: 10px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    strong{
+        color: var(--main-red);
+        font-size: 20px;
+        font-style: "Roboto", sans-serif;
+        font-weight: 700;
+        
+    }
+
+    button{
+        background-color: var(--main-red);
+        border: none;
+        width: 80%;
+        height: 55px;
+        border-radius: 10px;
+        margin-top: 20px;
+        color: var(--full-white);
+        font-size: 15px;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    
+}

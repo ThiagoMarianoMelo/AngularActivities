@@ -1,15 +1,15 @@
 <div class="container">
     <img src="../../../../../../assets/Icons/MainIcon.svg" alt="Angular Icon">
-    <form class="formLogin">
+    <form class="formLogin" [formGroup]="formAuth" (ngSubmit)="submitForm()">
         <label>
             <img src="../../../../../../assets/Icons/LoginUser.svg">
-            <input type="text" placeholder="Email" required>
+            <input type="text" placeholder="Email" required  formControlName="email">
         </label>
         <label>
             <img src="../../../../../../assets/Icons/LoginPassword.svg">
-            <input type="text" placeholder="Senha" required>
+            <input type="text" placeholder="Senha" required formControlName="senha">
         </label>
-        <button>Login</button>
+        <button [disabled]="formAuth.invalid">Login</button>
     </form>
-    <span>Usuario ou senha incorreta</span>
+    <span *ngIf="msgError"> {{msgError}}</span>
 </div>

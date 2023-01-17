@@ -40,8 +40,10 @@
     input{
         height: 50px;
         border: none;
-        font-size: 10px;
+        font-size: 15px;
+
         &::placeholder{
+            font-size: 15px;
             color: var(--letter-color);
         }
     }
@@ -63,7 +65,24 @@
         &:hover{
             cursor: pointer;
         }
-    }   
+
+        &:disabled{
+            background-color:rgb(168, 3, 3);
+
+
+            &:hover{
+                cursor: not-allowed;
+            }
+        }
+
+        color: var(--full-white);
+    }
+
+    span{
+        color: var(--main-red);
+        font-size: 18px;
+        margin-top: 20px;
+    }
 
     
 }

@@ -2,9 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `<a [routerLink] = "['admin']">Admin</a>
-  <br>
-  <a [routerLink] = "['']">Sign</a>
+  template: `
   <router-outlet></router-outlet>
   `
 })
