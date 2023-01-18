@@ -16,7 +16,7 @@ Erro login:
 
 ![image](https://user-images.githubusercontent.com/78879698/212785952-afcbcb10-40c4-4f0c-8fdb-8a720de60b52.png)
 
-Token Recebido armazenado no LocalStorage ( transição de página apenas permitida se token existir && token não está expirado ) :
+Token Recebido armazenado no LocalStorage ( transição de página apenas permitida se token existir && token não está expirado ):
 
 ![image](https://user-images.githubusercontent.com/78879698/212786177-709004d8-1a3b-4b28-a806-f6f8a196b9a7.png)
 
