@@ -10,3 +10,5 @@ Os principais conceitos estudados até o momento são:
 - Entendimento do consumo de apis utilizando typescript httpclient library;
 - Prática do uso de Typescript como linguagem;
 - Entendimento das boas práticas de componentes e divisão de funcionalidade segindo padrão SOLID;
+
+Os conceitos utilizados em cada atividade juntamente com os prints das telas finais desenvolvidas estão no read.me de cada atividade :)
