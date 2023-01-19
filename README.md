@@ -11,4 +11,4 @@ Os principais conceitos estudados até o momento são:
 - Prática do uso de Typescript como linguagem;
 - Entendimento das boas práticas de componentes e divisão de funcionalidade segindo padrão SOLID;
 
-Os conceitos utilizados em cada atividade juntamente com os prints das telas finais desenvolvidas estão no read.me de cada atividade :)
+Os conceitos utilizados juntamente com os prints das telas finais desenvolvidas estão no read.me de cada atividade :)
