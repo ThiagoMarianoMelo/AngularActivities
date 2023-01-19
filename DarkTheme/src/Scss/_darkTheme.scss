@@ -1,0 +1,19 @@
+@import url('../Scss/_variables.scss');
+
+:root{
+    --primary: var(--light-header);
+    --body: var(--full-white);
+    --text-header: var(--full-white);
+    --text-body: var(--dark-background)
+}
+
+:root .dark-theme{
+    --primary: var(--dark-header);
+    --body: var(--dark-background);
+    --text-header: var(--full-white);
+    --text-body: var(--full-white)
+}
+
+body{
+    background-color: var(--body);
+}

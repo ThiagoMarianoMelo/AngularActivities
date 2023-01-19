@@ -1,0 +1,19 @@
+:host{
+    .container{
+        width: 500px;
+        margin: 80px auto;
+
+        h1{
+            font-size: 25px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+        }
+    
+        h1,p{
+            color: var(--text-body);
+        }
+    }
+}
