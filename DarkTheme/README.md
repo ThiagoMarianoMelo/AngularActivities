@@ -1,27 +1,35 @@
 # DarkTheme
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+Fundamentos trabalhados nessa atividade:
 
-## Development server
+- Criação e entendimento do conceito de componentes e modulos;
+- Prática do uso de bibliotecas como e Router;
+- Prática de Sass utilizando SCSS;
+- Prática de clausulas Angular Html ( ngForm, ngIf, ngTemplate e outros);
+- Uso de RouterLink para redirecionamento rápido;
+- Manipulação de classe de elementos html dentro de metodos typescript;
+- Entendimento da divisão de modulos pages e shared componentes;
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O Dark Theme é ativado ao clicar no botão no canto superior da tela, alterndo a cor do background letras e a imagem do prórpio botão.
+A rota/pagina é alterada ao clicar no botão no link (<a>) Sobre ou Home (mantendo o darkTheme ao trocar de página caso esteja ativado).
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Pagina inicial:
 
-## Build
+![image](https://user-images.githubusercontent.com/78879698/213326662-4c57c841-89f3-48f8-8ed6-22f241df9ab6.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+Pagina inicial dark theme:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![image](https://user-images.githubusercontent.com/78879698/213326749-a4e23bd4-54ec-4b73-8abf-ca3fe82ccb8c.png)
 
-## Running end-to-end tests
+Pagina sobre:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![image](https://user-images.githubusercontent.com/78879698/213326983-c408a2b5-0283-47f2-aeff-c0aee560b34a.png)
 
-## Further help
+Pagina sobre dark theme:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![image](https://user-images.githubusercontent.com/78879698/213327015-a8ba19b9-00fd-4872-bab8-5d1de3d097e2.png)
+
+
+
